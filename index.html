@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Playground</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h3>Elements</h3>
+            <div class="draggable text" data-type="text">
+                <i class="fas fa-font"></i> <span>Text</span>
+            </div>
+            <div class="draggable image" data-type="image">
+                <i class="fas fa-image"></i> <span>Image</span>
+            </div>
+            <div class="draggable shape" data-type="shape">
+                <i class="fas fa-shapes"></i> <span>Shape</span>
+            </div>
+        </div>
+        
+        
+        
+
+        <!-- Playground -->
+        <div class="playground" id="playground">
+            <p>Drop elements here</p>
+        </div>
+
+        <!-- Properties Panel -->
+        <div class="properties" id="properties-panel">
+            <h3>Properties</h3>
+            <div id="properties-content">Select an element to edit properties</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
