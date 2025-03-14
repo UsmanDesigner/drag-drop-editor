@@ -5,7 +5,7 @@ A simple jQuery-based drag-and-drop playground where users can add, move, and ed
 ## Features
 - Drag text, images, and shapes into a playground
 - Reposition elements freely
-- Edit properties like font size, bold text, and image source
+- Edit properties like font size, bold text, italic text, underline, change width and height and image source
 
 ## Technologies Used
 - HTML, CSS, JavaScript
@@ -14,5 +14,7 @@ A simple jQuery-based drag-and-drop playground where users can add, move, and ed
 ## Setup Instructions
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/drag-drop-editor.git
+   git clone https://github.com/UsmanDesigner/drag-drop-editor.git
    cd drag-drop-editor
+
+## Build 
